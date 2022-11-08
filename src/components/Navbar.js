@@ -11,7 +11,7 @@ function Navbar({ pokemonFilter }) {
         />
       </div>
       <div className="header-poke">
-        <h1 className="header">Pokemon</h1>
+        <h1 className="header">POKE API</h1>
       </div>
       <div className="poke-filter">
         <input
