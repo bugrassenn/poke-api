@@ -17,7 +17,7 @@ function App() {
       endpoints.push(`https://pokeapi.co/api/v2/pokemon/${i}/`);
     }
     console.log(endpoints);
-    const response = axios
+    axios
       .all(endpoints.map((endpoint) => axios.get(endpoint)))
       .then((res) => setPokemons(res));
 
